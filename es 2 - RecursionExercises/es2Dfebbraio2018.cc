@@ -54,6 +54,8 @@ int main(int argc, char *argv[]){
         cin >> risposta;
     } while(risposta != 'n' && risposta != 'N');
 
+    delete[] estratta;
+
     return 0;
 }
 
